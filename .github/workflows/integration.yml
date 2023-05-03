@@ -21,7 +21,7 @@ jobs:
           node-version: ${{matrix.node-version}}
        - name: yarn add and test
          run:
-            yarn add
+            yarn 
             yarn test
          env:
            CI: true
